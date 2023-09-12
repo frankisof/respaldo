@@ -25,7 +25,6 @@ nombre: string = "fake";
   ngOnInit(): void {
     this.headerService.getHeader()
     .subscribe((data:any)=>{
-      console.log(data);
       alert(data)
       this.nombre=data.name;
       this.email=data.email;
