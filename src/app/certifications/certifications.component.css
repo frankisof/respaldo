@@ -1,7 +1,7 @@
 .Caja {
-    width: 100%;
-    box-shadow: 0 3px 10px rgba(7, 7, 7, 0.1);
-    background-color: #f7f3f3;
+    width: 700%;
+    box-shadow: 0 3px 10px rgba(197, 44, 44, 0.1);
+    background-color: #c7cfc7;
     font-family: 'Arial', sans-serif;
     color: #0e0d0d;
     margin-bottom: 20px;
@@ -13,22 +13,22 @@
   .titulo{
     font-size: 25px;
     font-weight: bold;
-    color: #5A5A5A;
+    color: #000000;
   }
   
   .puesto{
     font-size: 20px;
-    color: #5A5A5A;
+    color: #000000;
   }
   
   .empresa{
     font-size: 20px;
     font-weight: bold;
-    color: #656e60;
+    color: #000000;
   }
   
   
   
   .sombra {
-    box-shadow: 0 2px 5px rgba(240, 113, 113, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
