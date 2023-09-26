@@ -11,7 +11,7 @@ export class InterestsService {
 
   constructor(public http: HttpClient) { }
 
-  apiUrl = 'http://localhost:8080/interests';
+  apiUrl = 'https://node-apicv-service-frankisof.cloud.okteto.net/interests';
 
   httpOptions = {
     headers: new HttpHeaders ({

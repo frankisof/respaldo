@@ -11,7 +11,7 @@ import { BehaviorSubject } from 'rxjs';
 
   export class CertificationsService {
     constructor(public http: HttpClient ) { }
-    apiUrl = 'http://localhost:8080/certifications';
+    apiUrl = 'https://node-apicv-service-frankisof.cloud.okteto.net/certifications';
   
     httpOptions = {
       headers: new HttpHeaders ({

@@ -11,7 +11,7 @@ export class WorkExperienceService {
 
   constructor(public http: HttpClient ) { }
 
-  apiUrl = 'http://localhost:8080/workexperience';
+  apiUrl = 'https://node-apicv-service-frankisof.cloud.okteto.net/workexperience';
 
   httpOptions = {
     headers: new HttpHeaders ({
