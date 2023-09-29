@@ -26,9 +26,9 @@ jobs:
           file_name: .env
           fail_on_empty: false
           
-      - name: build angular, output in dist/openai
+      - name: build mycv, output in dist
         run: |
-          CI=false npm run build
+          npm run build 
           
       - name: show dir, .env file
         run: |
